@@ -1,0 +1,10 @@
+exp_name,dataset_name,n_train_samples,n_test_samples,mean_accuracy,split_criterion,train_time,query_time,kfolds,confusion_matrix,classification_report,tree_depth,n_leaves,n_tree_nodes
+dtc-iris-prepruned,iris-20test-shuffled-v1,120,30,0.9666666666666668,entropy,0 days 00:00:00.003480,0 days 00:00:00.000735,Stratified 3-Fold Cross-Validation,"[[11  0  0]
+ [ 0 13  0]
+ [ 0  1  5]]","{'0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 11.0}, '1': {'precision': 0.9285714285714286, 'recall': 1.0, 'f1-score': 0.9629629629629629, 'support': 13.0}, '2': {'precision': 1.0, 'recall': 0.8333333333333334, 'f1-score': 0.9090909090909091, 'support': 6.0}, 'accuracy': 0.9666666666666667, 'macro avg': {'precision': 0.9761904761904763, 'recall': 0.9444444444444445, 'f1-score': 0.957351290684624, 'support': 30.0}, 'weighted avg': {'precision': 0.9690476190476189, 'recall': 0.9666666666666667, 'f1-score': 0.9657687991021324, 'support': 30.0}}",3,5,
+dtc-iris-unpruned,iris-20test-shuffled-v1,120,30,1.0,entropy,0 days 00:00:00.005142,0 days 00:00:00.000668,Stratified 3-Fold Cross-Validation,"[[11  0  0]
+ [ 0 13  0]
+ [ 0  0  6]]","{'0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 11.0}, '1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 13.0}, '2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 6.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}}",5,9,
+dtc-iris-postpruned,iris-20test-shuffled-v1,120,30,1.0,entropy,0 days 00:00:00.011213,0 days 00:00:00.000578,Stratified 3-Fold Cross-Validation,"[[11  0  0]
+ [ 0 13  0]
+ [ 0  0  6]]","{'0': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 11.0}, '1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 13.0}, '2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 6.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 30.0}}",3,4,7.0
