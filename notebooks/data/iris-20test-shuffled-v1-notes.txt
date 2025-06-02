@@ -1,0 +1,9 @@
+Dataset: iris-20test-shuffled-v1
+X_train shape: (120, 4)
+X_test shape: (30, 4)
+y_train shape: (120,)
+y_test shape: (30,)
+Train: 80.00% of total
+Test: 20.00% of total
+Notes: None
+Created by save_dataset() helper at 2024-07-09 12:28:10

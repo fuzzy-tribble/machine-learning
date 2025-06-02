@@ -1,0 +1,9 @@
+Dataset: breastc-20test-shuffled-v0
+X_train shape: (455, 30)
+X_test shape: (114, 30)
+y_train shape: (455,)
+y_test shape: (114,)
+Train: 79.96% of total
+Test: 20.04% of total
+Notes: None
+Created by save_dataset() helper at 2024-07-09 13:03:08

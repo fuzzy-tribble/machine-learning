@@ -1,0 +1,53 @@
+# Site settings
+
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Machine Learning
+author: fuzzy-tribble
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Machine learning experiments for cheatsheets, demos, discussions, tutorials, etc.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# twitter_username: fuzzy-tribble
+github_username:  fuzzy-tribble
+
+# Site Collections (like posts but without pesky date/time requirements)
+collections:
+  notebooks:
+    output: true
+
+# NB Info will be included at the top of each nb page that is built
+# Use an empty string if you don't want any nb_info
+nb_info: >-
+  <!--NB_INFO-->
+  <sub><sup>
+  The content for this site available 
+  <a href="https://github.com/fuzzy-tribble/machine-learning">on GitHub</a>. 
+  If you want to launch the notebooks interactively click on the binder stamp below.
+  <a href="https://mybinder.org/v2/gh/fuzzy-tribble/machine-learning/master"><img src="https://mybinder.org/badge_logo.svg" alt="Binder"></a>
+  </sup></sub>
+
+# Customize navigation links
+# header_pages:
+#   - pages/about.md
+
+# Build settings
+remote_theme: fuzzy-tribble/minima-ipynb
+
+plugins:
+ - jekyll-seo-tag
+ - jekyll-feed
+
+# Google Analytics (will only appear in production, i.e., JEKYLL_ENV=production)
+# To enable, add the following lines
+# google_analytics: UA-65929619-3
+
+# Social Networks
+# To add links to your SM accounts with icon, add the appropriate lines below
+minima:
+  social_links:
+    github: fuzzy-tribble
+    # youtube: jekyll

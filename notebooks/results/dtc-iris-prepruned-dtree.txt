@@ -1,0 +1,13 @@
+|--- petal width (cm) <= -0.56
+|   |--- class: 0
+|--- petal width (cm) >  -0.56
+|   |--- petal width (cm) <= 0.67
+|   |   |--- petal length (cm) <= 0.64
+|   |   |   |--- class: 1
+|   |   |--- petal length (cm) >  0.64
+|   |   |   |--- class: 2
+|   |--- petal width (cm) >  0.67
+|   |   |--- petal length (cm) <= 0.58
+|   |   |   |--- class: 1
+|   |   |--- petal length (cm) >  0.58
+|   |   |   |--- class: 2
